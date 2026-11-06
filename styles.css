@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --couleur-rose-foncé: #512051;
+  --couleur-rose-transparent: #f7f2f7;
+  --couleur-petit-texte: #927b91;
+  --couleur-rose-clair: #ee69a4;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "League Spartan", sans-serif;
+  overflow: hidden;
+}
+
+.carte-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 70px 0;
+  gap: 70%;
+  width: 60%;
+}
+
+.carte-haut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+
+h1 {
+  color: var(--couleur-rose-foncé);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.info-texte {
+  color: var(--couleur-petit-texte);
+  font-weight: 500;
+  font-size: 16px;
+  word-spacing: 8px;
+  line-height: 1;
+}
+
+.avis {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+
+.etoile {
+  display: flex;
+  background-color: var(--couleur-rose-transparent);
+  border-radius: 8px;
+  gap: 5px;
+  padding: 10px 15px;
+  align-items: center;
+  height: 40px;
+}
+
+.etoile1 {
+  display: flex;
+  margin-left: 14px;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--couleur-rose-foncé);
+}
+
+.carte-bas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.petites-cartes {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--couleur-rose-foncé);
+  gap: 20px;
+  border-radius: 8px;
+  padding: 25px 18px;
+}
+
+.profil {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.petit-texte {
+  display: flex;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+  padding: 8px;
+}
+
+.svg {
+  display: flex;
+  padding: 10px 0;
+}
+
+.nom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  gap: 4px;
+}
+
+h3 {
+  color: #fff;
+}
+
+.nom-phrase {
+  color: var(--couleur-rose-clair);
+}
